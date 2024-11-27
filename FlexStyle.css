@@ -1,0 +1,48 @@
+body {
+    background-color: lightblue;
+}
+.flex{
+    display: flex;
+    flex-flow: column-reverse wrap;
+    background-color: pink;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: midnightblue;
+}
+.flex > div {
+    background-color: aquamarine;
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    color:aliceblue;
+    justify-content: center;
+}
+
+#div1 {
+    background-color: red;
+    flex-grow: 1;
+    align-self:flex-start;
+}
+#div2 { 
+    background-color: hotpink;
+    order: -3;
+    flex-grow: 1;
+}
+#div3 {
+    background-color: purple;
+    flex-shrink: 1;
+}
+#div4 {
+    background-color: brown;
+    flex-grow: 1;
+    align-self:flex-end;    
+}
+#div5 {
+    flex-grow: 1;
+    background-color: chartreuse;
+}
