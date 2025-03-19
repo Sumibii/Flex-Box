@@ -1,0 +1,154 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to top, #6E0D25, #FFFFB3, #DCAB6B, #774E24, #6A381F);
+    background-clip: text;
+    color: #0055ff;
+}
+
+html, body{
+    zoom: 0.75;
+}
+
+p{
+    font-size: 1.5rem;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+.recipe-details{
+    text-shadow: 0 0 20px #0055ff;
+    font-size: 1.5rem;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #e63946;
+    margin: 20px 0;
+}
+
+.hero img {
+    width: 50%;
+    height: 50%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+}
+
+.hero .title {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #ffcc00;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(10, 10, 10, 0.15);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+main h2 {
+    color: #e63946;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+main ul, main ol {
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+main li {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #111;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.footer a {
+    color: #e63946;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #333;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: block;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+
+nav ul li.dropdown {
+    position: relative;
+}
+
+nav ul li.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+}
+
+nav ul li.dropdown:hover .dropdown-content {
+    display: block; 
+}
+
+nav ul li.dropdown .dropdown-content li {
+    display: block;
+    padding: 10px;
+}
+
+nav ul li.dropdown .dropdown-content li a {
+    padding: 10px 15px;
+}
+
+nav ul li.dropdown .dropdown-content li a:hover {
+    background-color: #555;
+}
+
